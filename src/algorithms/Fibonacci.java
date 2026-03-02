@@ -21,7 +21,7 @@ public class Fibonacci {
     }
 
     // --- RECURSIVO ---
-    // Sin memoizacion: cada llamada genera dos llamadas nuevas → arbol exponencial
+    // Sin memorizacion: cada llamada genera dos llamadas nuevas → arbol exponencial
     public static long recursivo(int n) {
         if (n <= 1) return n;
         return recursivo(n - 1) + recursivo(n - 2);
